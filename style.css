@@ -1,107 +1,139 @@
-
-body{
-    background-color: #180A25;
-    color: white;
-    font-family: 'Gabarito', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: x-large;
-    
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
-.image{
-   max-width:10%;
-   max-height:10%;
-   
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
+    
+    color: teal;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav .mainMenu{
+    display: flex;
+    list-style: none;
+}
+nav .mainMenu li a{
+    padding: 15px;
+    justify-self: center;
+    text-decoration: none;
+    color: teal;
+}
+nav .openMenu, .closeMenu{
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.one{
+    color: teal; 
+    float: right;
+    height: 30px;
+    
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./nurse.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    font-size: x-large;
+}
+.heading{
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: rgb(7, 59, 59);
+}
+.theading{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(14, 167, 167);
+}
+.two{
+    background-color: rgb(7, 59, 59);
+    color: white;
+    border-radius: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.three{
+    background-color: white;
+    color: rgb(7, 59, 59);
+    border-radius: 40px;
+    font-size: 15px;
+    margin-left: 400px;
+}
+.four{
+    background-color: white;
+    color: rgb(7, 59, 59);
+    border-radius: 40px;
+    font-size: 15px;
+    margin-left: 400px;
+}
+.five{
+    background-color:aliceblue;
+    color: rgb(7, 59, 59);
+    border-color: aliceblue;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.wrapper{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    top:58px;
-    bottom:379px;
+    flex-wrap: nowrap;
+    padding: 50px;
+    color:  rgb(7, 59, 59);
+}
+.clinic{
+    width: 400px;
+    height: 400px;
+    float: right; 
+    display: inline;
+}
+.clinics{
+   display: flex;
+   flex-direction: row;   
+   display: inline;
+
+}
+.threading{
+    font-size: 70px;
+    
+    margin-left: 50px;
+    color: rgb(7, 59, 59);
+}
+
+@media(max-width: 800px){
+    nav .mainMenu ,button{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        
+    }
    
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    border: 2px solid;
-    border-image: linear-gradient(300deg,#ac52be,#643eee,#72ccef)1;
-    border-radius: 20px;
-    -webkit-mask: 
-       linear-gradient(#fff 0 0) content-box, 
-       linear-gradient(#fff 0 0);  
-}
-
-nav ul button{
-    color:white;
-    background:linear-gradient(300deg,#ef8172,#ee3e96,#ac52be);
-    border-radius: 20px;
-}
-nav ul li{
-    list-style: none;
-    margin: 0 23px;
-}
-nav ul li a{
-    text-decoration: none;
-    color:white;
-}
-
-.purple{
-    background: linear-gradient(
-            to right,
-             #cf23cf, #eb8ce3);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-}
-main {
-    text-align: center;
-    margin-top: 150px;
-}
-main h1{
-    margin: 0 0;
-    padding: 10px;
-}
-.product{
-    background: linear-gradient(
-            to right, #f012f0,#8c0ed4 ,
-             #f01bf0,#1b0ed4 );
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-}
-.btn{
-    color:white;
-    background-color: #660fb8;
-    border-radius: 10px;
-    border:#660fb8 ;
-    font-size: 20px;
-}
-.firstclass{
-    margin-top: 100px;
-    margin-left: 100px;
-}
-strong{
-    color: #580aa0;
-}
-h4{
-    background: linear-gradient(
-        to right,
-         #cc1bf0,#0e2cd4 );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}  
-.role{
-    margin-top: 100px;
-    color: #b44ee4;
-}
-.b{
-    text-align: center;
-}
-
-
-@media screen and (max-width: 800px){
- 
-
-
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    
   
-  
-
+    
 }
