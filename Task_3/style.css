@@ -1,0 +1,154 @@
+
+*{
+    background: #260446;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Gabarito', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;   
+}
+body{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.mainMenu{
+    display: flex;
+    list-style: none;
+}
+
+.openMenu, .closeMenu{
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.image{
+   max-width:10%;
+   max-height:10%;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:58px;
+    bottom:379px;
+    margin-bottom: 100px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-image: linear-gradient(300deg,#ac52be,#643eee,#72ccef)1;
+    border-radius: 20px;
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);  
+}
+
+nav ul button{
+    color:white;
+    background:linear-gradient(300deg,#ef8172,#ee3e96,#ac52be);
+    border-radius: 20px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.img{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+main{
+    float: right;
+     margin-right: 300px;
+     margin-top: 100px;
+    
+}
+h1{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+i{
+    color: #8B2CF5;
+}
+.span{
+    color: rgba(255, 255, 255, 0.70);
+}
+h2{
+    color: rgba(112, 66, 201, 0.80);
+    text-align: center;
+    margin-top: 50px;
+}
+.small{
+    font-size: 20px;
+   
+}
+
+.star{
+    color: red;
+}
+.stars{
+    color: blue;
+}
+
+
+
+@media (max-width: 800px){
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        
+    }
+    nav .mainMenu .openMenu{
+        float: right;
+        display: block;
+    }
+
+   
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    main{   
+        float: left;
+    }
+    div{
+        position: absolute; 
+        left: 50%; 
+        width: 800px;
+        margin-left: -400px;
+    }
+   *{
+    font-size: xx-small;
+    padding: 0;
+    margin: 0;
+   }
+   .img{
+    width: 300px;
+    height: 300px;
+   }
+   .small{
+    font-size: xx-small;
+   }
+   .para{
+    padding-left: 30px;
+   } 
+  
+    
+    
+
+}
