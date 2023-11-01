@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Caprasimo&family=Inter:wght@300&family=Kablammo&family=Merienda:wght@300&family=Roboto+Slab:wght@200;300&family=Tapestry&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="con">
+        <div class="firstdiv">
+            <header class="nav">
+                <div class="toggle-btn" onclick="myFunction();">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div id="icon" class="logo">
+                    <h2>Logo.</h2>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li class="contact"><a href="#contact">Contact</a></li>
+                        <li><div id="img"> <img src="./images/bag.png" alt="img"> </div></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="colour" style="background-color: #F4E8DC;">
+                <div class="heading">
+                    DELICIOUS
+                </div>
+                <div class="subhead">
+                    CULINARY <span>EXCELLENCE</span> <br>
+                    ONE <span>PLATE</span> AT A TIME
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="menu">
+            <h1>MENU</h1>
+        </div>
+        <div class="body">
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <img id="img1" src="./images/45cf41408f6a8c4fc049c9dc93bd7470.jpg" alt="img" draggable="false">
+                    <img id="img2" src="./images/4a978ebb84926c77b3fbcd331d647237.jpg" alt="img" draggable="false">
+                    <img id="img3" src="./images/4fcf338643e5f6a7b2d8ee828385060a.jpg" alt="img" draggable="false">
+                    <img id="img4" src="./images/6ee05e4cfe3705983d732b50f045db0e.jpg" alt="img" draggable="false">
+                    <img id="img5" src="./images/7c991f34d4cbc9aed731371aa62340b0.jpg" alt="img" draggable="false">
+                    <img id="img6" src="./images/7ed0b61c643990f72dc32e4e0507fa1f.jpg" alt="img" draggable="false">
+                    <img id="img7" src="./images/triangle.png" alt="img" draggable="false">
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="uparrow">
+            <button>
+                <a href="#icon" style="text-decoration: none; color: black;"><i class="fas fa-arrow-up"></i></a>
+            </button>
+        </div>
+        <div class="story">
+            <div class="image">
+                <div id="our" class="our">Our Story</div>
+                <div id="pr">Lorem ipsum dolor sit amet consectetur. Donec nunc cursus <br> sollicitudin pellentesque
+                    elementum. Amet elit duis nullam <br> amet id sollicitudin diam. Duis amet tellus mauris quam. <br>
+                    Aliquet cursus at vitae sed libero.</div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="sub1">
+                <div class="sub2">
+                    <div class="subtext">
+                        <h3>Get our promo code to subscribe our page and <br> channel of food</h3>
+                    </div>
+                    <form name="submit-to-google-sheet" class="sub3">
+                        <input id="email-field" name="Email" type="email" placeholder="Type your email and get"
+                            style="color: gray;" required>
+                        <button type="submit" style="background-color:#97292D ;">Subscribe</button>
+                    </form>
+                    <span id="msg" style="color: white;"></span>
+                </div>
+            </div>
+            <div class="info">
+                <div id="contact" class="contac">Contact</div>
+                <div class="navigation">Navigation</div>
+                <div class="follows">Follow us</div>
+            </div>
+            <div class="num">
+                <div>
+                    <h4>6969696969</h4>
+                </div>
+                <div style="margin-right:50px;">
+                    <h4><a style="text-decoration: none; color: gray;" href="#">Home</a></h4>
+                    <h4><a style="text-decoration: none; color: gray;" href="#menu">Menu</a></h4>
+                </div>
+                <div style="margin-right: 20px;">
+                    <div class="icons"><img src="./images/facebook.png" alt="img"></div>
+                    <div class="icons"><img src="./images/twitter.png" alt="img"></div>
+                    <div class="icons"><img src="./images/insta.png" alt="img"></div>
+                </div>
+            </div>
+            <div class="uparrow">
+                <button>
+                    <a href="#icon" style="text-decoration: none; color: black;"><i class="fas fa-arrow-up"></i></a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+function myFunction(){
+    var navbar = document.getElementById('nav');
+    navbar.classList.toggle('show');
+}
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzoveOkce6mXKN_OQ-iqSjC2XQvI1oMkIvXypVhui-_r4tHLKd1lvrIkaPmYfIILA6U/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thank You For Subscribing!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+              .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>

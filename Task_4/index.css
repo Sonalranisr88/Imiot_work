@@ -1,0 +1,395 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%; 
+    overflow-x: hidden;
+}
+.firstdiv{
+    height: 80%;
+    width: 100%;
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 20px;
+}
+.logo{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 10%;
+    float: left;
+    padding: 20px;
+}
+nav{
+    font-family: Inter;
+    font-weight: 300px;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    font-family: Inter;
+    padding: 10px;
+}
+.contact{
+    margin-right:400px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: 600px;
+}
+.toggle-btn{
+    width: 35px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    display: none;
+}
+
+.toggle-btn span{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    color: black ;
+}
+.colour{
+    height: 40%;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 500px 1000px 100px 1006px ;
+    position: relative;
+}
+.heading{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 80px;
+}
+.subhead{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Tapestry;
+}
+.subhead span{
+    color: #97292D;
+}
+
+.menu{
+    height: 150PX;
+    width: 100%;
+}
+.menu h1{
+    font-size: 100px;
+    margin: 50px;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Tapestry;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.carousel.dragging{
+    scroll-behavior:auto ;
+    cursor: grab;
+}
+.carousel.dragging img{
+    pointer-events: none;
+}
+.carousel{
+    height: 500px;
+}
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+ 
+}
+.wrapper i{
+    background-color:#F4E8DC ;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#img1{
+    top: 148px; 
+    position: relative;
+}
+#img2{
+    top: 76.90px;
+    position: relative;
+}
+#img3{
+    position: relative;
+}
+#img4{
+    top: 76.90px;
+    position: relative;
+}
+#img5{
+    top: 148.01px;
+    position: relative;
+}
+
+#img6{
+    top: 76.90px;
+    position: relative;
+}
+
+#img7{
+    position: relative;
+} 
+
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -23px;
+}
+
+.carousel img{
+    height: 360px;
+    object-fit: cover;
+    width: calc(100% /4);
+    margin-left: 20px;
+}
+
+.carousel img:first-child{
+    margin-left: 0px;
+} 
+
+.wrapper{
+    max-width: 1200px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    padding: 0, 10px;
+    margin-left: 200px;
+}
+
+
+.story{
+   width: 100%;
+   height: 500px;
+}
+
+.image {
+    height: 500px;
+    width: 90%;
+    background-image: url(https://img.freepik.com/free-photo/crop-plate-with-salad_23-2147753678.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+#our{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 100px;
+    color: white; 
+    font-size: 85px; 
+    font-weight: 400; 
+}
+
+#pr{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 250px;
+    width: 100%; 
+    color: rgba(255, 255, 255, 0.70); 
+    font-size: 29px;
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.subscribe{
+    width: 100%;
+    height: 800px;
+    background-color: #F4E8DC;
+    position: absolute;
+}
+
+.sub1{
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+    background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&w=1000);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sub2{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.763);
+    text-align: center;
+    position: absolute;
+}
+
+.subtext{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
+
+.sub3{
+    background-color: white; 
+    width: 80%; 
+    height: 80px; 
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    width: 650px;
+    height: 75px;
+    font-size: 25px;
+    border: none;
+}
+.sub3 button{
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Inter;
+}
+
+
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: inter;
+    color:rgb(99, 97, 97) ;
+    margin-top: 30px;
+}
+
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.uparrow button{
+    width: 3%; 
+    height: 6%; 
+    left: 90%; 
+    position: absolute; 
+    background: white; 
+    border-radius: 6px; 
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media all and (max-width:500px){
+
+    .colour{margin-left: 50px; width: 300px; }
+    .subhead{font-size: 35px;}
+    .menu{height: 90px;}
+    .menu h1{font-size: 50px;margin: 20px;}
+    .carousel img{width: calc(100%/1 );}
+    .carousel img{width: 100%; }
+    body{overflow-x: hidden;}
+    .image{margin-left: 20px; background-size: cover; height: 250px;}
+    #our{margin-left: 20px; margin-top: 50px; font-size: 35px;}
+    #pr{font-size: 10px; margin-top: 110px; margin-left: 20px; width: 220px;}
+    
+    }
+
+@media all and (max-width:800px) {
+
+    body{overflow-x: hidden;}
+    .colour{height: 10%; margin-top: 30%; }
+    .heading{font-size: 55px;}
+    .subhead{font-size: 20px; margin-top: 10px;}
+    .menu{height: 90px;}
+    .menu h1{font-size: 50px; text-align: center;}
+    .carousel img{width: calc(100% /2); padding: 9px;}
+    body{overflow-x: hidden;}
+    .story{height: auto;}
+    .image{margin-left: 20px; background-size: cover; height: 250px;}
+    #our{margin-left: 50px; margin-top: 50px; font-size: 50px;}
+    #pr{font-size: 12px; margin-top: 120px; margin-left: 50px; width: 420px;}
+    .sub1{margin-left: 20px; width: 90%; margin-top: 0;}
+    .sub2{width: 90%; }
+    .subtext{font-size: 20px; }
+    .sub3{ width: 80%;height: 55px;}
+    input{width: 500px; height: 52px; font-size: 15px;}
+    .sub3 button{height: 40px; width: 99px; font-size: 15px; }
+    .info{font-size: 15px;}
+    .navigation{margin-right: 70px;}
+    .follows{margin-right: 9px;}
+}
+@media all and (max-width:900px){
+    .logo{font-size: 15px;}
+    nav{font-size: 15px; display: none; width: 100%; border-top: 1px solid;}
+    nav.show{display: block;}
+    nav ul li{display: flex; padding: 1px;}
+    #img img{width: 30px; height: 30px;}
+    .toggle-btn{display: block; }
+    nav ul{position: fixed; width: 100%;  background: #F4E8DC; text-align: center; }
+    #contact { margin-right: 80px;}
+    
+}
+
+@media all and (min-width:801px) {
+
+    body{overflow-x: hidden;}
+    .heading{font-size: 85px;}
+    .subhead{font-size: 30px; margin-top: 10px;}
+}
+
+@media all and (min-width:1000px) {
+    body{overflow-x: hidden;}
+}
+
+@media all and (min-width:1030px) {
+    body{overflow-x: hidden;}
+    .logo{font-size: 15px;}
+    nav{font-size: 20px;}
+    #img img{ height: 30px; width: 30px; margin-right: 115px;}
+    #colour{  height: 40%; width: 70%; margin-top: 10px; margin-left: 15px;}
+    .heading{font-size: 150px;}
+    .subhead{font-size: 50px; margin-top: 10px;}
+}
+
+
