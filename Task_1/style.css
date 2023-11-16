@@ -38,6 +38,15 @@ nav .openMenu, .closeMenu{
     border-color: white;
     
 }
+.nurse{
+    float: right;
+    width: 796px;
+    height: 800px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+}
 .background{
     width: 100%;
     height: 100vh;
@@ -55,10 +64,9 @@ h2{
     margin-left: 50px;
     color: rgb(7, 59, 59);
 }
-.eading{
+.head{
     font-size: 70px;
-    display: grid;
-    place-items: center;
+    text-align: center;
     color: rgb(7, 59, 59);
 }
 .theading{
@@ -86,7 +94,9 @@ h2{
     color: rgb(7, 59, 59);
     border-radius: 40px;
     font-size: 15px;
-    margin-left: 1000px;
+    margin-left: 600px;
+    float: right;
+    position: absolute;
     
 }
 .five{
@@ -96,12 +106,13 @@ h2{
     font-size: 15px;
     margin-left: 40px;
 }
-.wrapper{
+.columns{
+    padding: 5px;
+    width: 95%;
+    margin: 2px auto;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    padding: 50px;
-    color:  rgb(7, 59, 59);
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .threading{
@@ -126,9 +137,9 @@ h2{
     float: right;
     margin-right:100px ;
 }
-.img_2{
-    height: 150px;
-    height: 150px;
+.img_2{ 
+        width: 232px;
+height: 185px;
     float: right;
     margin-right:100px ;
     margin-top: 350px;
@@ -141,6 +152,11 @@ h2{
 .green{
     background-color: rgb(9, 34, 9);
 }
+.clinic{
+    width: 201px;
+    height: 254px;
+    margin-left: 100px;
+}
 .main{
     display: flex;
     justify-content: center;
@@ -148,6 +164,7 @@ h2{
     font-size: 50px;
     color: grey;
     margin-left: 300px;
+    padding-bottom: 100px;
 }
 .white{
     color: white;
@@ -158,9 +175,14 @@ h2{
 }
 .rapper{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
+}
+.rapper img{
+    padding: 0 20px 20px;
 }
 .three_2{
     background-color: white;
@@ -169,6 +191,7 @@ h2{
     font-size: 15px;  
 }
 .row{
+    margin-left: 100px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -195,7 +218,7 @@ strong{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: white;
         display: none;
         
     }
@@ -218,7 +241,44 @@ strong{
         flex-direction: column;
         
     }
-   
+    .heading{
+        position: absolute;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .theading{
+        margin-top: 0;
+        position: absolute;
+        font-size: 15px;
+    }
+    .nurse{
+        float: right;
+        width: 408.585px;
+        height: 707.966px;
+        float: right;
+        background-repeat: no-repeat;
+        background-size:auto;
+        
+    }
+    .columns .column {
+     flex-flow: wrap column;
+      }
+      .main{
+        font-size: 30px;
+      }
+      .green img{
+        height: 100px;
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        float: left;
+      }
+      
+  .row{
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+  }
     
   
     
