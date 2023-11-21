@@ -168,8 +168,6 @@ button{
      width: 100%;
      border-top-right-radius: 5px;
      border-top-left-radius: 5px;
-     
-   
     
     }
    
@@ -185,12 +183,11 @@ button{
     }
    
    .des{
-     padding: 3px;
-     text-align: center;
-    
-     padding-top: 10px;
-           border-bottom-right-radius: 5px;
-     border-bottom-left-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
    }
    button{
      margin-top: 40px;
@@ -342,6 +339,29 @@ input[type=text], select, textarea {
 
   .footer-col form button {
     margin: 10px 0 0 0;
+  }
+  .main{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .card img{
+    width: 133.443px;
+    height: 91.975px;
+  }
+  .des{
+    font-size: 6.5px;
+  }
+  .title{
+    font-size: 15px;
+  }
+  .card buton{
+    font-size: 7.5px;
+  }
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
   }
 }
 

@@ -123,9 +123,7 @@ h2{
         top: 20px;
         right: 20px;
     }
-    main{   
-        float: left;
-    }
+   
     div{
         position: absolute; 
         left: 50%; 
@@ -140,6 +138,7 @@ h2{
    .img{
     width: 300px;
     height: 300px;
+    margin-bottom: 0px;
    }
    .small{
     font-size: xx-small;
@@ -147,6 +146,16 @@ h2{
    .para{
     padding-left: 30px;
    } 
+   body p{
+    font-size: 20px;
+   }
+   .main{
+    margin-left: 100px;
+    width: 100%;
+    margin-right: 100px;
+    margin-top: 50px;
+   
+   }
   
     
     

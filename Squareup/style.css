@@ -1,0 +1,183 @@
+*{
+    box-sizing:border-box;
+    margin: 5px;
+    padding: 5px;
+    background-color:  #1A1A1A;
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mainMenu{
+    display: flex;
+    list-style: none;
+}
+.mainMenu li a{
+    padding: 15px;
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+}
+.mainMenu1{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.mainMenu1 li a{
+    padding: 15px;
+    justify-self: center;
+    text-decoration: none;
+    color: white;
+}
+.openMenu, .closeMenu{
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.one{
+color: black; 
+background-color: #9EFF00;
+float: right;
+height: 30px;
+border-radius: 5px;
+}
+.main{
+   
+    display: flex;
+    padding: 100px 250px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid #262626; 
+}
+.main1{
+   
+    display: flex;
+    padding: 100px 250px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+   margin-top: 0;
+}
+.body{
+    border: 1px solid #262626; 
+}
+.button{
+    border-radius: 8px;
+    background-color:  #262626;
+    border: 2px solid black;
+    padding: 10px;
+    
+    
+}
+
+.responsive-two-column-grid {
+    display:block;
+   
+}
+
+
+.responsive-two-column-grid > * {
+    padding:1rem;
+    border: 1px solid #262626; 
+  }
+
+.footer{
+   
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #262626;
+   
+}
+.last .span{
+    margin-left: 450px;
+    float: right;
+    color: #98989A;
+}
+.icon{
+    float: right;
+    background-color: #262626 ;
+}
+button span{
+    float: left;
+}
+span{
+    float: right;
+}
+.last{
+    display: flex;
+    border: 1px solid #262626; 
+}
+
+
+@media (min-width:768px) {
+    .responsive-two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+}
+
+
+@media(max-width: 800px){
+    nav .mainMenu ,.one{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        display: none;
+        
+    }
+   
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .mainMenu li a:hover{
+        background: none;
+        font-size: 1.6 rem;
+        color: orange;
+    }
+    .box{
+        height: 188px;
+    }
+    .main img{
+        height: 200px;
+        width: 400px;
+    }
+    .mainMenu1{
+        justify-content: center;
+    }
+  .last{
+    img{
+        height: 40px;
+        width: 40px;
+    }
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
